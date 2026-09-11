@@ -9,7 +9,7 @@ simulated and physical smart meter hardware systems.
 
 ## Directory Structure
 
-```text
+
 smart_meter_setup/
 │
 ├── Hardware_Setup/               # Physical hardware integration layer
