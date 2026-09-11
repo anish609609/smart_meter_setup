@@ -115,6 +115,3 @@ http://<YOUR_IP_ADDRESS>:5000
 
 Your live smart meter dashboard should now load and update in real time! You can even extend this idea to simulate multiple smart meters as well by editing the files accordingly.
 
-```
-
-```
