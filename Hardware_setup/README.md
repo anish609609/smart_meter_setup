@@ -1,4 +1,3 @@
-```markdown
 # Hardware Setup: Physical Smart Meter & Relay Control
 
 This directory contains the documentation and instructions for connecting a physical smart meter(Schneider-Electric-IEM3150) and a relay module to your Raspberry Pi.
