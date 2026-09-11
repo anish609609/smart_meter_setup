@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Meter Live Dashboard</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f4f7f6; text-align: center; padding: 50px; }
+        .card { background: white; padding: 20px; margin: 20px auto; width: 300px; border-radius: 10px; box-shadow: 0px 4px 10px rgba(0,0,0,0.1); }
+        h1 { color: #333; }
+        .value { font-size: 24px; font-weight: bold; color: #007BFF; }
+    </style>
+</head>
+<body>
+    <h1>⚡ Live Smart Meter Dashboard</h1>
+    
+    <div class="card">
+        <h3>Device ID</h3>
+        <p id="device_id" class="value">Loading...</p>
+    </div>
+    
+    <div class="card">
+        <h3>Power Consumption</h3>
+        <p id="power" class="value">0.0 W</p>
+    </div>
+
+    <div class="card">
+        <h3>Voltage & Current</h3>
+        <p><span id="voltage">0.0</span> V | <span id="current">0.0</span> A</p>
+    </div>
+
+    <p style="color: gray; font-size: 12px;">Last Updated: <span id="time">N/A</span></p>
+
+    <script>
+        function fetchData() {
+            fetch('/data')
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('device_id').innerText = data.device_id;
+                    document.getElementById('power').innerText = data.power_watts + " W";
+                    document.getElementById('voltage').innerText = data.voltage;
+                    document.getElementById('current').innerText = data.current;
+                    document.getElementById('time').innerText = data.timestamp;
+                })
+                .catch(err => console.error('Error fetching data:', err));
+        }
+
+        // Fetch new data every 2 seconds
+        setInterval(fetchData, 2000);
+    </script>
+</body>
+</html>
