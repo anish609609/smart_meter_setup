@@ -2,7 +2,8 @@
 ```markdown
 # Smart Meters Setup Guide
 
-This repository provides a hands-on, end-to-end guide for configuring both simulated and physical smart meter hardware systems.
+This repository provides a hands-on, end-to-end guide for configuring both
+simulated and physical smart meter hardware systems.
 
 ---
 
