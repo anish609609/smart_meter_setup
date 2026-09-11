@@ -1,4 +1,3 @@
-```markdown
 # Software Setup: MQTT Simulator & Web Dashboard
 
 This directory contains everything you need to simulate a smart meter, transmit live data using MQTT communication, and display real-time readings on a web dashboard accessible across your local network.
