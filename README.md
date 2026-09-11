@@ -6,9 +6,9 @@ This repository provides a hands-on, end-to-end guide for configuring both
 simulated and physical smart meter hardware systems.
 
 ---
-
+```
 ## Directory Structure
-
+```text
 smart_meter_setup/
 │
 ├── Hardware_Setup/               # Physical hardware integration layer
@@ -114,7 +114,5 @@ cd ~/Desktop/smart_meter_setup/Hardware_Setup
 
 
 4. Follow the step-by-step instructions inside [`Hardware_Setup/README.md`] to connect your RS-485-to-USB adapter, wire the meter, test GPIO relay logic, and execute the reader script.
-
-```
 
 ```
