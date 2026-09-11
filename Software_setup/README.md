@@ -22,10 +22,14 @@ To run the complete system, you will need **two separate terminal windows** open
 
 ### Step 1: Start the Smart Meter Simulator (Terminal 1)
 
+```
+
 1. Open **Terminal 1** and go to your project folder:
 
+```bash
    cd ~/Desktop/smart_meter_setup
 
+```
 2. Activate your virtual environment:
 ```bash
 source venv/bin/activate
