@@ -1,4 +1,4 @@
-# Smart Meters Setup Guide
+# Smart Meter Setup Guide
 
 This repository provides a hands-on, end-to-end guide for configuring both
 simulated and physical smart meter hardware systems.
