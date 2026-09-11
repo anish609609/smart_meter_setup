@@ -119,13 +119,8 @@ Test relay activation directly from the terminal using the standard Raspberry Pi
 ```bash
 pinctrl set 17 op dl
 
-```
-
-
-
 *Verification:* In one of these state changes, you should hear a distinct mechanical "click" sound and observe the indicator LED for `IN1` on the relay board turn on. In the opposite state, the LED will turn off and the relay will open.
 
 3. **Testing Additional Channels:**
 Move the signal wire from `IN1` to `IN2`, `IN3`, or `IN4` and repeat the commands, or connect 4 separate GPIO wires to test each channel independently using their respective GPIO numbers.
 
-```
