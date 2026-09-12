@@ -5,9 +5,8 @@ This repository provides a hands-on, end-to-end guide for configuring both simul
 * **Software Setup:** Can be run directly on a laptop (Windows or Linux).
 * **Hardware Setup:** 
   * **Raspberry Pi:** Works seamlessly without driver configurations.
-  * **Windows:** If connecting directly to smart meters, you may encounter driver issues. You can download the required drivers below, though compatibility cannot be guaranteed for all configurations.
-
-  * **Drivers:** [PL2303 Prolific Driver v3.3.2.105](https://github.com/theAmberLion/Prolific/blob/main/PL2303_Prolific_v3.3.2.105.exe)
+  * **Windows:** If connecting directly to smart meters, you may encounter driver issues.
+    * **Drivers:** [PL2303 Prolific Driver v3.3.2.105](https://github.com/theAmberLion/Prolific/blob/main/PL2303_Prolific_v3.3.2.105.exe) *(Note: Compatibility cannot be guaranteed for all configurations).*
 
 ---
 ```
